@@ -1,0 +1,15 @@
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 0em;
+    font-family: sofia-pro;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+	margin: 0 !important;
+	padding: 0;
+    letter-spacing: .01em;
+    line-height: 2em;
+    text-transform: none;
+    color: #000;
+	scroll-behavior: smooth;
+}

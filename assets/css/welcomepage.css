@@ -1,0 +1,343 @@
+.welcome-background {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url('../images/Erik3.jpg');
+	background-size: cover;
+}
+
+.eriktext {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.eriktext .text {
+	text-align: center;
+	white-space: pre-wrap;
+	color: #fff;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 80px;
+	letter-spacing: 0em;
+	line-height: 1.2em;
+	text-transform: none;
+}
+
+.eriktext .text2 {
+	text-align: center;
+	font-style: normal;
+	font-size: 16px;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.down-arrow {
+	position: absolute;
+	left: 47%;
+	bottom: 0 !important;
+	background-repeat: no-repeat;
+	background-image: url('../images/down-arrow.png');
+	width: 58px;
+    height: 58px;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+}
+.down-arrow:hover{
+	opacity: 0.7;
+	cursor: pointer;
+	height: 54px;
+}
+.secondsection{
+	min-height: 100vh;
+	display: flex;
+}
+.firstimage{
+	background-image: url('../images/chefdagen2019-Erik.jpg');
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.rightimages{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+.secondimage{
+	background-image: url('../images/Erik10.jpg');
+	width: 100%;
+    height: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.thirdimage{
+	background-image: url('../images/Index-Awards.jpg');
+	width: 100%;
+    height: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.leftimages{
+	width: 60%;
+}
+.erikheaden{
+    margin: auto;
+    width: 50%;
+}
+.erikheaden h1{
+	margin-top: 10% !important;
+	color: #001d61;
+	margin-top: 15px;
+	font-weight: 600;
+    font-style: normal;
+    font-size: 80px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    text-transform: none;
+}
+.erikheaden h5{
+	margin-top: 15px;
+	margin-top: 15px;
+	color: black;
+	font-family: sofia-pro;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+.erikheaden p{
+	font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: .01em;
+    line-height: 2em;
+    text-transform: none;
+    color: #000;
+}
+
+.textcontact{
+	margin-top: 15px;
+	margin-top: 15px;
+	color: black;
+	font-family: sofia-pro;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: .1em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+.erikheaden button{
+	margin-top: 15px;
+	transition: .1s opacity linear;
+	border-radius: 300px;
+	color: #fff;
+	font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #fff;
+    background-color: #001d61;
+    border-color: #001d61;
+	padding: 1rem;
+}
+.erikheaden button:hover{
+	opacity: .8;
+}
+.twoimages{
+	margin-top: 10%;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+.twoimages .rightimg{
+	background-image: url('../images/Index-Awards.jpg');
+	width: 50%;
+    height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.twoimages .leftimg{
+	background-image: url('../images/Erik10.jpg');
+	width: 50%;
+    height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.backgdcolor{
+	margin-top: 10%;
+	background-color: #041045;
+}
+.texttrasform{
+	text-decoration: underline;
+	color: #fff;
+	cursor: pointer;
+}
+.footerlink{
+	text-decoration: underline;
+	color: #000;
+	cursor: pointer;
+}
+.footerlink:hover{
+	color: rgba(0,0,0,.6);
+}
+.texttrasform:hover{
+	color: rgba(255,255,255,.6);
+}
+.btnprimary{
+	margin-top: 15px;
+	transition: .1s opacity linear;
+	border-radius: 300px;
+	color: #fff;
+	font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #fff;
+    background-color: #001d61;
+    border-color: #001d61;
+	padding: 1rem;
+	font-size: 18px;
+	width: 240px;
+}
+.btnwhite{
+	background-color: white !important;
+	color: #001d61 !important; 
+}
+.btnwhite:hover{
+	color: rgba(255,255,255,.6);
+}
+.galldiv{
+	background-image: url('../images/DSC.jpg');
+	background-size: cover;
+	height: 159vh;
+	width: 100%;
+	display: flex;
+    align-items: flex-end;
+}
+.textquote{
+	font-family: sofia-pro;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 0em;
+    line-height: 1.5em;
+    text-transform: none;
+	margin-left: 6%;
+}
+.padimage{
+	padding: 5%;
+}
+.spanquote{
+	margin-left: 6%;
+	font-family: sofia-pro;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .02em;
+    line-height: 1.5em;
+    text-transform: capitalize;
+}
+.preclient{
+	font-weight: 900;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .2em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+	color: #001d61;
+}
+.Index-nav {
+    align-items: center;
+    position: fixed;
+	top: 23%;
+    bottom: 0;
+	right: 4%;
+    z-index: 10;
+    width: 0;
+}
+.Index-nav-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    transform: translatez(0);
+}
+.Index-nav-item {
+    display: block;
+    position: relative;
+    padding: 10px 0;
+}
+.Index-nav-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #001d61;
+	z-index: 9999;
+    transition: border-color 170ms ease-out,background-color 170ms ease-out;
+}
+.Index-nav-indicator {
+    border-color: #fff;
+}
+.Index-nav-text{
+	display: none
+}
+.bluebackground{
+	border-color: #001d61;
+	background-color: #001d61;
+}
+.boderolor {
+	border-color: #001d61 !important;
+}
+.journeyimg{
+	width: 30%;
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.journeytxt {
+	width: 70%;
+}
+.textjourney{
+	margin: 3.67rem 0;
+}
+.journeytxt h2{
+	color: #001d61;
+	font-style: normal;
+    font-size: 14px;
+    letter-spacing: .2em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+li{
+	list-style-type: none !important
+}
+.scrolled{
+	color: white !important;
+	font-size: x-large;
+	background-color: white;
+}
+#footer{
+	background-color: #c4b8ab;
+}
+.footerdiv{
+	padding: 4rem;
+}
+.iconsfooter{
+	padding: 2rem;
+}
+.iconsfooter a:hover{
+	opacity: 0.8
+}
