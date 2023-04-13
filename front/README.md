@@ -1,5 +1,14 @@
 # erikhden
 
+add file .env to config sending email
+.env
+MAILHOST=
+MAILPORT=
+MAILUSER=
+MAILPASSWORD=
+CONTACTMAIL=
+
+
 ## Build Setup
 
 ```bash
