@@ -53,19 +53,20 @@
 	height: 54px;
 }
 .secondsection{
-	min-height: 100vh;
 	display: flex;
 }
-.firstimage{
+/* .firstimage{
 	background-image: url('../images/chefdagen2019-Erik.jpg');
+    width: 100%;
     height: 100%;
-    background-size: 100% 100%;
     background-repeat: no-repeat;
-}
+	background-size: contain;
+} */
 .rightimages{
 	display: flex;
 	flex-direction: column;
 	width: 40%;
+	height: 505px;
 }
 .secondimage{
 	background-image: url('../images/Erik10.jpg');
@@ -83,6 +84,7 @@
 }
 .leftimages{
 	width: 60%;
+	height: 505px;
 }
 .erikheaden{
     margin: auto;
@@ -194,21 +196,20 @@
 	color: rgba(255,255,255,.6);
 }
 .btnprimary{
-	margin-top: 15px;
-	transition: .1s opacity linear;
-	border-radius: 300px;
-	color: #fff;
-	font-size: 14px;
-    font-weight: 700;
-    font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    color: #fff;
-    background-color: #001d61;
-    border-color: #001d61;
-	padding: 1rem;
-	font-size: 18px;
-	width: 240px;
+	margin-top: 15px !important;
+	transition: .1s opacity linear !important;
+	border-radius: 300px !important;
+	color: #fff !important;
+	font-size: 14px !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    text-transform: uppercase !important;
+    letter-spacing: .1em !important;
+    color: #fff !important;
+    background-color: #001d61 !important;
+    border-color: #001d61 !important;
+	padding: 1rem !important;
+	font-size: 18px !important;
 }
 .btnwhite{
 	background-color: white !important;
@@ -321,9 +322,7 @@
     line-height: 1.2em;
     text-transform: uppercase;
 }
-li{
-	list-style-type: none !important
-}
+
 .scrolled{
 	color: white !important;
 	font-size: x-large;
@@ -341,3 +340,194 @@ li{
 .iconsfooter a:hover{
 	opacity: 0.8
 }
+.logos img{
+	width: 14%;
+}
+.modal-header{
+	border-bottom: none !important;
+	border: none !important;
+}
+.close{
+	border: none;
+    background: none;
+    font-size: 24px;
+}
+
+.nameinput{
+	margin: 0px 0 0 -2%;
+}
+.nameinput .title{
+	margin-left: 2%;
+	font-size: 12px;
+}
+
+.ftnsize{
+	font-size: 12px;
+}
+
+.field{
+	width: 48%;
+}
+.field .title {
+    font-size: 12px;
+}
+
+.title {
+    font-size: 12px;
+}
+
+.lastname input{
+	margin-top: 7px;
+}
+#checkboxes-4 label{
+	margin-left: 12px;
+}
+.description{
+	font-size: 12px;
+}
+a{
+	text-decoration: none !important;
+}
+.btnsend{
+	display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 1em 2.5em;
+    color: #fff;
+    background-color: #272727;
+    border-width: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    text-transform: none;
+}
+.input{
+	width: 100%;
+    padding: 12px;
+    margin: 6px 0 4px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.inputdate{
+	padding: 12px;
+    margin: 6px 3px 4px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+	.Index-nav{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.logos{
+		display: flex;
+	}
+	.logos img {
+		padding: 3%;
+		width: 100%;
+        height:109.701px
+	}
+	.padimage{
+		display: flex;
+		flex-direction: column;
+	}
+	.erikheaden p {
+		font-size: 10px;
+	}
+	.erikheaden h3 {
+		font-size: 8pt;
+	}
+	.erikheaden h1, .eriktext h1{
+		font-size: 32px !important;
+	}
+	li{
+		font-size: 8pt;
+	}
+	.down-arrow {
+		left: 41%;
+	}
+	.twoimages{
+		margin-top: 10%;
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+	.twoimages .rightimg{
+		width: 100%;
+	}
+	.twoimages .leftimg{
+		width: 100%;
+	}
+	.erikheaden{
+		margin: 0;
+		width: 100%;
+		padding: 17px;
+	}
+	.secondsection {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+	.leftimages{
+		height: auto;
+		width: 100%;
+	}
+	.rightimages{
+		width: 100%;
+	}
+	.galldiv h1 {
+		font-size: 32px !important;
+	}
+	.journeyflex{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+	}
+	.journeyimg{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.journeyimg{
+		text-align: center;
+	}
+	.journeytxt {
+		width: 100%;
+	}
+  }

@@ -1,8 +1,8 @@
 <template>
 	<div>
 		<div data-target=".Index-nav" data-spy="scroll" data-offset="50"> 
-			<section class="welcome-background " id="welcome">
-				<div class=" p-0 m-0">
+			<section class="welcome-background" id="welcome">
+				<div class="p-0 m-0">
 				</div>
 				<div class="eriktext">
 					<h1 class="text">Erik Elvingsson Hedén</h1>
@@ -10,9 +10,9 @@
 				</div>
 				<a v-scroll-to="'#galleryevents'" class="down-arrow"></a>
 			</section>
-			<section class="secondsection " id="galleryevents">
+			<section class="secondsection" id="galleryevents">
 				<div class="leftimages">
-					<div class="firstimage"></div>
+						<img src="../assets/images/chefdagen2019-Erik.jpg" width="100%" height= "100%">
 				</div>
 				<div class="rightimages">
 					<div class="secondimage">
@@ -33,7 +33,7 @@
 						on how sustainability
 						affects brands, communication and business development.
 						Looking for a keynote speaker, moderator or training session?</p>
-					<button>Contact ERIK</button>
+					<a href="#contact" class="btn btn-primary btnprimary text-decoration-none text-white">Contact ERIK</a>
 					<p class="mt-4">Erik is a passionate speaker, who loves interaction and humour on stage.
 						He is also a teacher at Berghs School of Communication (Berghs), one of the world’s leading schools
 						in communication.
@@ -74,25 +74,26 @@
 				</div>
 			</section>
 			<section class="backgdcolor " id="speaker">
-				<div class="erikheaden text-right p-5">
+				<div class="erikheaden text-right pt-5 pb-5">
 					<h1 class="text-white">Erik As A Speaker</h1>
-					<p class="text-white">Erik is an experienced lecturer and passionate speaker.
-						He is specialised in how companies can integrate sustainability into branding,
-						communication and business development. Thanks to <a class="text-white texttrasform"
+					<p class="mt-5 p-3 text-white">Erik is an experienced lecturer and passionate speaker.
+						He is specialised in  how companies can integrate sustainability into branding,
+						communication  and business development. Thanks to <a class="text-white texttrasform"
 							href="/">Sustainable Brand Index™</a> ,
-						Erik has deep sustainability insights from more than 1,500 brands <br> across 35 industries,
-						from a business-to-consumer as well as a business-to-business <br> perspective. <br>
-						Erik offers tailored lectures, workshops and education solutions, on different levels for all <br>
+						Erik has deep sustainability insights from more than 1,500 brands  across 35 industries,
+						from a business-to-consumer as well as a business-to-business  perspective. </p>
+						<p class="text-white">
+						Erik offers tailored lectures, workshops and education solutions, on different levels for all 
 						occasions.
-						He works with real-life examples and <br> cases in order to create understanding and spark creative
+						He works with real-life examples and  cases in order to create understanding and spark creative
 						thinking.
 						Erik’s talks and lectures are based on data-driven analyses,
-						but he <br> always applies his own experience and knowledge to draw conclusions and tailor the
-						content to <br> the audience.
-						He combines useful frameworks, data points, practical tools and inspiring cases <br> to deliver
+						but he  always applies his own experience and knowledge to draw conclusions and tailor the
+						content to  the audience.
+						He combines useful frameworks, data points, practical tools and inspiring cases  to deliver
 						actionable insights.</p>
 
-					<h5 class="text-white">ERIK’S EXPERTISE</h5>
+					<h3 class="text-white">ERIK’S EXPERTISE</h3>
 					<ul class="text-white">
 						<li>Sustainable Development</li>
 						<li>Sustainable Brands & Communication</li>
@@ -102,32 +103,35 @@
 						<li>Marketing, Target Groups & Segmentation</li>
 						<li>Future Trends within Sustainability </li>
 					</ul>
-					<h5 class="text-white">TYPES OF EVENTS</h5>
+					<h3 class="text-white">TYPES OF EVENTS</h3>
 					<p class="text-white">Kick-offs, seminars, internal and external conferences, lectures. You name it.
 					</p>
-					<h5 class="text-white">LOCATION & LANGUAGES</h5>
+					<h3 class="text-white">LOCATION & LANGUAGES</h3>
 					<p class="text-white">Erik is based in Stockholm, Sweden. He is fluent in Swedish, English and French.
 					</p>
 
 				</div>
 			</section>
-			<section class="p-4 " id="journey">
+			<section class="" id="journey">
 				<h5 class="text-center mt-4 preclient">SELECTION OF PREVIOUS CLIENTS</h5>
-				<div class="d-flex justify-content-around m-auto mt-4 padimage">
-					<img src='../assets/images/HM.png' width="100px" alt="">
-					<img src="../assets/images/Arla.png" width="100px" alt="">
-					<img src="../assets/images/Nordea_logo.png" width="100px" alt="">
-					<img src="../assets/images/IKEA.jpeg" width="100px" alt="">
-					<img src="../assets/images/Carls.jpeg" width="100px" alt="">
-					<img src="../assets/images/EON.png" width="100px" alt="">
-				</div>
-				<div class="d-flex justify-content-around m-auto mt-4 mb-4 padimage">
-					<img src='../assets/images/EC-EU.png' width="120px" alt="">
-					<img src="../assets/images/Telia.png" width="120px" alt="">
-					<img src="../assets/images/scandic-logo.jpg" width="120px" alt="">
-					<img src="../assets/images/Regering.png" width="120px" alt="">
-					<img src="../assets/images/Liseberg_logo.png" width="120px" alt="">
-					<img src="../assets/images/RagnSells.png" width="120px" alt="">
+				<div class="logos">
+					<div class="d-flex justify-content-around m-auto mt-4 padimage">
+						<img src='../assets/images/HM.png'  alt="">
+						<img src="../assets/images/Arla.png"  alt="">
+						<img src="../assets/images/Nordea_logo.png"  alt="">
+						<img src="../assets/images/IKEA.jpeg"  alt="">
+						<img src="../assets/images/Carls.jpeg"  alt="">
+						<img src="../assets/images/EON.png"  alt="">
+					</div>
+
+					<div class="d-flex justify-content-around m-auto mt-4 mb-4 padimage">
+						<img src='../assets/images/EC-EU.png'  alt="">
+						<img src="../assets/images/Telia.png"  alt="">
+						<img src="../assets/images/scandic-logo.jpg"  alt="">
+						<img src="../assets/images/Regering.png"  alt="">
+						<img src="../assets/images/Liseberg_logo.png"  alt="">
+						<img src="../assets/images/RagnSells.png"  alt="">
+					</div>
 				</div>
 				<div class="p-5 text-center">
 					<h3 class="textquote">“As a speaker, Erik is both knowledgeable and inspiring.
@@ -141,7 +145,7 @@
 				<div class="erikheaden ">
 					<h1 class="textjourney">Erik’s Journey </h1>
 					<h5 class="text-center">WORK</h5>
-					<div class="d-flex w-100">
+					<div class="d-flex journeyflex w-100">
 						<div class="journeyimg">
 							<img src='../assets/images//sustainable.png' width="70%" alt="">
 						</div>
@@ -155,7 +159,7 @@
 								   Since 2011</p>
 						</div>
 					</div>
-					<div class="d-flex w-100">
+					<div class="d-flex journeyflex w-100">
 						<div class="journeyimg mt-2">
 							<img src='../assets/images/SB_INSIGHT_Logo_Black.png' width="70%" alt="">
 						</div>
@@ -169,7 +173,7 @@
 								Since 2011</p>
 						</div>
 					</div>
-					<div class="d-flex w-100">
+					<div class="d-flex journeyflex w-100">
 						<div class="journeyimg">
 							<img src='../assets/images/berghs.png' width="70%" alt="">
 						</div>
@@ -183,7 +187,7 @@
 								  Since 2014</p>
 						</div>
 					</div>
-					<div class="d-flex w-100">
+					<div class="d-flex journeyflex w-100">
 						<div class="journeyimg mt-3">
 							<img src='../assets/images/1280px-Idg_logo.svg.png' width="70%" alt="">
 						</div>
@@ -201,16 +205,16 @@
 				</div>
 			</section>
 			<section class="backgdcolor " id="advice">
-				<div class="erikheaden text-right p-5">
-					<h1 class="text-white">Erik As A Speaker</h1>
-					<p class="text-white">Are you in need of more tailored insights or strategic advise?
+				<div class="erikheaden text-right p-3 pt-5 pb-5">
+					<h1 class="text-white">Strategic Advise</h1>
+					<p class=" text-white">Are you in need of more tailored insights or strategic advise?
 						 As the Managing Director of <a class="texttrasform">SB Insight</a> and the founder of <a class="texttrasform"
 							href="/">Sustainable Brand Index™</a>, 
 						 Erik is able to offer a wide range of reports and decision-making material on sustainability. 
 						 He can provide insights from different countries, markets and stakeholders. 
 						Contact Erik here or discover more about his insight agency SB Insight.  </p>
 					
-					<button class="btnwhite">DISCOVER MORE</button>
+					<button class=" btnwhite">DISCOVER MORE</button>
 
 
 				</div>
@@ -225,7 +229,125 @@
 			<section id="contact">
 				<div class="text-center p-5">
 					<h5 class="text-dark textcontact">LOOKING FOR AN INDEPENDENT EXPERT ON SUSTAINABILITY, BRANDING & COMMUNICATION? LOOK NO FURTHER. </h5>	
-					<button class="btnprimary">Contact US</button>
+					<b-button id="show-btn" @click="showModal" class="btnprimary">Contact US</b-button>
+					<b-modal size="lg" ref="my-modal"  hide-footer title="Request : Erik Elvingsson Hedén">
+      <div class="d-block text-center">
+		<div>
+			<form v-if="show">
+        <div class="p-3 border-bottom">
+
+<div class="d-flex justify-content-around nameinput mt-3">
+    <div class="d-flex flex-column field text-start">  
+        <legend class="title">
+          Your Name
+            <span class="required " aria-hidden="true">*</span>
+        </legend>
+        <input class="input" v-model="form.firstname" name="firstname" required/>
+        <span class="ml-3 ftnsize">First Name</span>
+    </div>
+    <div class="nameinput field lastname text-start">
+        <label></label>
+        <input class="input" v-model="form.lastname" name="lastname" required/>
+        <span class="ml-3 ftnsize">Last Name</span>
+    </div>
+</div>
+<div class="d-flex flex-column field text-start w-100 mt-3">  
+        <legend class="title">
+            Your Company/Organisation 
+            <span class="required ml-2" aria-hidden="true">*</span>
+        </legend>
+        <input class="input" v-model="form.organisation" name="organisation" required/>
+    </div>
+    <div class="d-flex flex-column field text-start w-100 mt-3">  
+        <legend class="title">
+            Your Role
+            <span class="required ml-2" aria-hidden="true">*</span>
+        </legend>
+        <input class="input" v-model="form.role" name="role" required/>
+    </div>
+    <div class="d-flex flex-column field text-start w-100 mt-3">  
+        <legend class="title">
+            Your Email 
+            <span class="required ml-2" aria-hidden="true">*</span>
+        </legend>
+        <input type="email" class="input" v-model="form.email" name="email" required />
+    </div>
+    <div class="d-flex flex-column field text-start w-100 mt-3">  
+        <legend class="title">
+            Phone Number
+            
+        </legend>
+        <input class="input" v-model="form.phone" name="phone" />
+    </div>
+    <div class="d-flex flex-column field text-start w-100 mt-3">  
+        <legend class="title">
+            The service you request: 
+            <span class="required ml-2" aria-hidden="true">*</span>
+        </legend>
+        <b-form-group id="input-group-4" v-slot="{ ariaDescribedby }">
+<b-form-checkbox-group
+v-model="form.service"
+id="checkboxes-4"
+:aria-describedby="ariaDescribedby"
+name="service"
+
+>
+<b-form-checkbox value="Keynote Speaker">Keynote Speaker</b-form-checkbox>
+<b-form-checkbox value="Moderation">Moderation / Host</b-form-checkbox>
+<b-form-checkbox value="Workshop"> Workshop or Training Session</b-form-checkbox>
+<b-form-checkbox value="Strategic">Strategic Advise</b-form-checkbox>
+<b-form-checkbox value="General">General request</b-form-checkbox>
+
+</b-form-checkbox-group>
+</b-form-group>
+    </div>
+
+    <div class="d-flex flex-column field text-start w-100 mt-3">  
+        <legend class="title">
+            Description
+            <span class="required ml-2" aria-hidden="true">*</span>
+        </legend>
+        <textarea class="input"  v-model="form.description" name="description" cols="30" rows="10" required></textarea>
+        
+    </div>
+
+    <div class="d-flex flex-column field text-start w-100 mt-3">  
+        <legend class="title">
+            Preliminary Event Date
+        </legend>
+        <div class="d-flex" >
+            <div class="d-flex flex-column" style="width: 12%;">
+                <input type="number" class="inputdate" v-model="form.month" name="month" required min="1" max="12"/>
+                <span class="ms-3 ftnsize">MM</span>
+            </div>
+            <div class="d-flex flex-column" style="width: 12%;">
+                <input type="number" class="inputdate" v-model="form.day" name="day" required min="1" max="31"/>
+                <span class="ms-3 ftnsize">DD</span>
+            </div>
+            <div class="d-flex flex-column" style="width: 12%;">
+                <input type="number" class="inputdate" v-model="form.year" name="year" required min="1900" max="2100"/>
+                <span class="ms-3 ftnsize">YYYY</span>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="mt-4 text-start">
+        <div class="title">Privacy</div>
+        <div class="description text-secondary" >We will use the information you
+             provide on this form to provide you with relevant information related to your request.
+              We will treat your personal information with respect. 
+            <a class=" text-secondary" href="http://www.sb-insight.com/privacy">You can read our Privacy Notice here.</a></div>
+    </div>
+	<button type="submit" @click.prevent="send" class="btnsend mt-4" variant="primary">Send</button>
+	  <p v-if="errors" style="padding: 1rem;color: #fff;background: red; margin-top: 12px; border-radius: 8px;"> error.</p>
+		<p v-if="succsess" style="padding: 1rem;background: #1ed629;margin-top: 12px;border-radius: 8px;">📩 send!</p>
+
+</div>
+	</form>
+  </div>
+      </div>
+    </b-modal>
 				</div>
 			</section>
 			<section id="footer">
@@ -247,77 +369,94 @@
 					</div>
 				</div>
 			</section>
+			<nav class="Index-nav overlay">
+				<div class="Index-nav-inner" >
+					<ul>
+							<a class="Index-nav-item"  href="#welcome">
+								<div  class="Index-nav-indicator" :class="[(isScrolled ? 'scrolled' : ''), , (about || mission || speaker || footer || contact  ? 'boderolor' : '')]"></div>
+								<div class="Index-nav-text" ><span>welcome</span></div>
+							</a>
+	
+							<a class="Index-nav-item"   href="#galleryevents">
+								<div  class="Index-nav-indicator"  :class="[(galleryevents ? 'scrolled' : ''), (about || mission || speaker || footer || contact  ? 'boderolor' : '')]"></div>
+								<div class="Index-nav-text"><span>galleryevents</span></div>
+							</a>
+	
+							<a class="Index-nav-item"  href="#about">
+								<div  class="Index-nav-indicator"  :class="[(about ? 'bluebackground' : ''), (mission || speaker || footer || contact  ? 'boderolor' : '')]"></div>
+								<div class="Index-nav-text"><span>about</span></div>
+							</a>
+	
+							<a class="Index-nav-item"  href="#galleryevents2">
+								<div  class="Index-nav-indicator" :class="[(galleryevents2 ? 'scrolled' : ''), (about || mission || speaker || footer  || contact ? 'boderolor' : '')]"></div>
+								<div class="Index-nav-text"><span>galleryevents2</span></div>
+							</a>
+	
+							<a class="Index-nav-item"  href="#mission">
+								<div  class="Index-nav-indicator" :class="[(mission ? 'bluebackground' : ''), (about || speaker || footer || contact  ? 'boderolor' : '')]"></div>
+								<div class="Index-nav-text"><span>mission</span></div>
+							</a>
+	
+							<a class="Index-nav-item"  href="#journey">
+								<div  class="Index-nav-indicator" :class="[(journey ? 'scrolled' : ''), (about || mission || speaker || footer || contact  ? 'boderolor' : '')]"></div>
+								<div class="Index-nav-text"><span>journey</span></div>
+							</a>
+	
+							<a class="Index-nav-item"  href="#speaker">
+								<div  class="Index-nav-indicator" :class="[(speaker ? 'bluebackground' : ''), (about || mission || speaker || footer || contact  ? 'boderolor' : '')]"></div>
+								<div class="Index-nav-text"><span>speaker</span></div>
+							</a>
+	
+							<a class="Index-nav-item"  href="#advice">
+								<div  class="Index-nav-indicator" :class="[(advice ? 'scrolled' : ''), (about || mission || speaker || footer || contact  ? 'boderolor' : '')]" ></div>
+								<div class="Index-nav-text"><span>galleryphoto</span></div>
+							</a>
+	
+							<a class="Index-nav-item"  href="#galleryphoto">
+								<div  class="Index-nav-indicator" :class="[(galleryphoto ? 'scrolled' : ''), (about || mission || speaker || footer  || contact ? 'boderolor' : '')]"></div>
+								<div class="Index-nav-text"><span>galleryphoto</span></div>
+							</a>
+	
+							<a class="Index-nav-item"  href="#contact">
+								<div  class="Index-nav-indicator" :class="[(contact ? 'bluebackground' : ''), (about || mission || speaker || footer ? 'boderolor' : '')]"></div>
+								<div class="Index-nav-text"><span>contact</span></div>
+							</a>
+							<a class="Index-nav-item"  href="#footer">
+								<div  class="Index-nav-indicator" :class="[(footer ? 'bluebackground' : ''), (about || mission || speaker || contact ? 'boderolor' : '')]"></div>
+								<div class="Index-nav-text"><span>footer</span></div>
+							</a>
+					</ul>
+	
+	
+				</div>
+			</nav>
 		</div>
-		<nav class="Index-nav overlay">
-			<div class="Index-nav-inner" >
-				<ul>
-						<a class="Index-nav-item"  href="#welcome">
-							<div  class="Index-nav-indicator" :class="[(isScrolled ? 'scrolled' : ''), , (about || mission || speaker || footer || contact  ? 'boderolor' : '')]"></div>
-							<div class="Index-nav-text" ><span>welcome</span></div>
-						</a>
-
-						<a class="Index-nav-item"   href="#galleryevents">
-							<div  class="Index-nav-indicator"  :class="[(galleryevents ? 'scrolled' : ''), (about || mission || speaker || footer || contact  ? 'boderolor' : '')]"></div>
-							<div class="Index-nav-text"><span>galleryevents</span></div>
-						</a>
-
-						<a class="Index-nav-item"  href="#about">
-							<div  class="Index-nav-indicator"  :class="[(about ? 'bluebackground' : ''), (mission || speaker || footer || contact  ? 'boderolor' : '')]"></div>
-							<div class="Index-nav-text"><span>about</span></div>
-						</a>
-
-						<a class="Index-nav-item"  href="#galleryevents2">
-							<div  class="Index-nav-indicator" :class="[(galleryevents2 ? 'scrolled' : ''), (about || mission || speaker || footer  || contact ? 'boderolor' : '')]"></div>
-							<div class="Index-nav-text"><span>galleryevents2</span></div>
-						</a>
-
-						<a class="Index-nav-item"  href="#mission">
-							<div  class="Index-nav-indicator" :class="[(mission ? 'bluebackground' : ''), (about || speaker || footer || contact  ? 'boderolor' : '')]"></div>
-							<div class="Index-nav-text"><span>mission</span></div>
-						</a>
-
-						<a class="Index-nav-item"  href="#journey">
-							<div  class="Index-nav-indicator" :class="[(journey ? 'scrolled' : ''), (about || mission || speaker || footer || contact  ? 'boderolor' : '')]"></div>
-							<div class="Index-nav-text"><span>journey</span></div>
-						</a>
-
-						<a class="Index-nav-item"  href="#speaker">
-							<div  class="Index-nav-indicator" :class="[(speaker ? 'bluebackground' : ''), (about || mission || speaker || footer || contact  ? 'boderolor' : '')]"></div>
-							<div class="Index-nav-text"><span>speaker</span></div>
-						</a>
-
-						<a class="Index-nav-item"  href="#advice">
-							<div  class="Index-nav-indicator" :class="[(advice ? 'scrolled' : ''), (about || mission || speaker || footer || contact  ? 'boderolor' : '')]" ></div>
-							<div class="Index-nav-text"><span>galleryphoto</span></div>
-						</a>
-
-						<a class="Index-nav-item"  href="#galleryphoto">
-							<div  class="Index-nav-indicator" :class="[(galleryphoto ? 'scrolled' : ''), (about || mission || speaker || footer  || contact ? 'boderolor' : '')]"></div>
-							<div class="Index-nav-text"><span>galleryphoto</span></div>
-						</a>
-
-						<a class="Index-nav-item"  href="#contact">
-							<div  class="Index-nav-indicator" :class="[(contact ? 'bluebackground' : ''), (about || mission || speaker || footer ? 'boderolor' : '')]"></div>
-							<div class="Index-nav-text"><span>contact</span></div>
-						</a>
-						<a class="Index-nav-item"  href="#footer">
-							<div  class="Index-nav-indicator" :class="[(footer ? 'bluebackground' : ''), (about || mission || speaker || contact ? 'boderolor' : '')]"></div>
-							<div class="Index-nav-text"><span>footer</span></div>
-						</a>
-				</ul>
-
-
-			</div>
-		</nav>
 		
 	</div>
 </template>
 
 <script>
+
 export default {
 	name: 'welocme',
 	data () {
 		return {
+			errors: false,
+			succsess: false,
+		  form: {
+		firstname: '',
+		lastname: '',
+		organisation: '',
+		role: '',
+          email: '',
+		  phone: '',
+          service: [],
+		  description: '',
+		  month: '',
+		  day: '',
+		  year: ''
+        },
+        show: true,
 		headers : ['welcome', 'galleryevents', 'about', 'galleryevents2', 'mission', 'speaker', 'journey', 'advice', 'galleryphoto', 'contact', 'footer'],
 		isScrolled: false,
 		galleryevents: false,
@@ -337,6 +476,51 @@ export default {
 },
 
 	methods : {
+	async	send() {
+     await this.$mail.send({
+        from: this.form.email,
+        subject: this.form.firstname + this.form.lastname,
+        text: 
+		`name: ${this.form.firstname + this.form.lastname}
+		email: ${this.form.email}
+		organisation: ${this.form.organisation}
+		role: ${this.form.role}
+		phone: ${this.form.phone}
+		service: ${this.form.service}
+		description: ${this.form.description}
+		date: ${this.form.month.toString() + '/' + this.form.day.toString() + '/' + this.form.year.toString()}
+		`,
+      }).then(() => {
+		this.form.firstname= '',
+		this.form.lastname= '',
+		this.form.organisation= '',
+		this.form.role= '',
+		this.form.email= '',
+		this.form.phone= '',
+		this.form.service= [],
+		this.form.description= '',
+		this.form.month='',
+		this.form.day= '',
+		this.form.year= ''
+		this.succsess = true
+		this.errors = false
+	  })
+	  .catch(() => {
+		this.errors = true
+		this.succsess = false
+	  })
+    },
+
+		showModal() {
+        this.$refs['my-modal'].show()
+      },
+      hideModal() {
+        this.$refs['my-modal'].hide()
+      },
+      toggleModal() {
+     
+        this.$refs['my-modal'].toggle('#toggle-btn')
+      },
 		handleScroll() {
 			const welcome = document.getElementById('welcome').clientHeight;
 			const galleryevents = document.getElementById('galleryevents').clientHeight;

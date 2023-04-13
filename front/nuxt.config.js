@@ -28,7 +28,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-	{ src: "~/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js", mode: "client" },
 	{src: '~/plugins/vue-scrollto', ssr: false}
   ],
 
@@ -42,7 +41,37 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
 	'bootstrap-vue/nuxt',
+  '@nuxtjs/pwa',
+  '@nuxtjs/axios',
+  '@nuxtjs/proxy',
+  '@nuxtjs/toast',
+  ['nuxt-mail', {
+    message: {
+      to: process.env.CONTACTMAIL,
+    },
+    smtp: {
+      host: process.env.MAILHOST,
+      port: process.env.MAILPORT,
+      auth: {
+        user: process.env.MAILUSER,
+        pass: process.env.MAILPASSWORD
+      },
+    },
+  }],
   ],
+
+  toast: {
+    position: 'top-center',
+    register: [ // Register custom toasts
+      {
+        name: 'my-error',
+        message: 'Oops...Something went wrong',
+        options: {
+          type: 'error'
+        }
+      }
+    ]
+},
   
   bootstrapVue: {
 	icons: true
@@ -54,5 +83,17 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+
+  runtimeConfig: {
+    MAILHOST: process.env.MAILHOST,
+    MAILPORT: process.env.MAILPORT,
+    MAILUSER: process.env.MAILUSER,
+    MAILPASSWORD: process.env.MAILPASSWORD,
+    CONTACTMAIL: process.env.CONTACTMAIL
+},
+
+
+
 }
